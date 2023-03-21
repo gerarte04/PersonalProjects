@@ -1,7 +1,0 @@
-TotalKills 15000
-TotalHeadkills 13000
-TotalHits 23000
-TotalShots 27000
-TotalDeaths 0
-TotalMatches 0
-TotalWins 0

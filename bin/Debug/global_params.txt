@@ -1,2 +1,0 @@
-FirstOpen:false
-mType:Manual
