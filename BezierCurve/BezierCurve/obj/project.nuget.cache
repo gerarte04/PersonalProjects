@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wY8pBuzqwUKrtLdpHDDhppL3ktDoo33PQbaKqY7CoXorHB5SPdJugVBhLFtL4sJ1suJl974r3i9bPpOoSjF2yw==",
+  "success": true,
+  "projectFilePath": "F:\\Files\\programming\\wpf\\BezierCurve\\BezierCurve\\BezierCurve.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\sfml.audio\\2.5.0\\sfml.audio.2.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\sfml.graphics\\2.5.0\\sfml.graphics.2.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\sfml.net\\2.5.0\\sfml.net.2.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\sfml.system\\2.5.0\\sfml.system.2.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\sfml.window\\2.5.0\\sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
