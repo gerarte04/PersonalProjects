@@ -1,0 +1,41 @@
+﻿<Page x:Class="CybersportTrainer.GuidePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CybersportTrainer"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="GuidePage">
+
+    <Page.Resources>
+        <TextBlock x:Key="paragraph_tbl" Margin="0,25,0,0" Foreground="White" TextWrapping="Wrap" FontSize="24" FontFamily="Hermes" x:Shared="False"/>
+        <TextBlock x:Key="header_tbl" Margin="0,25,0,0" Foreground="White" TextWrapping="Wrap" FontSize="36" FontFamily="Hermes" x:Shared="False"/>
+        <TextBlock x:Key="title_tbl" Foreground="White" TextWrapping="Wrap" FontSize="50" FontFamily="Hermes" x:Shared="False"/>
+        <Image x:Key="standard_image" Width="800" Height="Auto" HorizontalAlignment="Left" Margin="100,50,0,0" RenderOptions.BitmapScalingMode="HighQuality" x:Shared="False"/>
+        <MediaElement x:Key="standard_media" Width="800" Height="Auto" HorizontalAlignment="Left" Margin="100,50,0,0" LoadedBehavior="Play" UnloadedBehavior="Manual" IsMuted="True" MediaEnded="myMediaEnded" Stretch="Fill" RenderOptions.BitmapScalingMode="HighQuality" x:Shared="False"/>
+
+        <Style x:Key="b_style" TargetType="Border">
+            <Setter Property="Background" Value="#1c1c1c"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="0.7"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Border x:Name="back_b" Width="60" Height="60" Margin="11.5,20,0,0" Style="{StaticResource b_style}" MouseLeftButtonUp="back_b_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand">
+            <Image Source="pack://application:,,,/res/arrow_left.png" Height="60" Margin="0,0,0,0" RenderOptions.BitmapScalingMode="HighQuality"/>
+        </Border>
+        
+        <ScrollViewer Width="1720" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalScrollBarVisibility="Hidden">
+            <StackPanel x:Name="container" Orientation="Vertical">
+                
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,7 @@
+TotalKills
+TotalHeadkills
+TotalHits
+TotalShots
+TotalDeaths
+TotalMatches
+TotalWins

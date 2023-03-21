@@ -1,0 +1,6 @@
+TrainingTime 11 30
+Kills 100 100
+Headkills 36 50
+ARKills 50 50
+SRKills 13 30
+MVP 4 10 

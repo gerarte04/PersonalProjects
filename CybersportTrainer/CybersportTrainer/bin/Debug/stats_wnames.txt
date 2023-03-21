@@ -1,0 +1,4 @@
+﻿AllStats:Все оружия
+AWPStats:AWP
+ARStats:Штурмовые винтовки
+PistolStats:Пистолеты

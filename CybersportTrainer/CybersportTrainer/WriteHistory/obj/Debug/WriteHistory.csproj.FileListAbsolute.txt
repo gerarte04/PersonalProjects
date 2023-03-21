@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\bin\Debug\WriteHistory.exe.config
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\bin\Debug\WriteHistory.exe
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\bin\Debug\WriteHistory.pdb
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\obj\Debug\WriteHistory.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\obj\Debug\WriteHistory.exe
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\obj\Debug\WriteHistory.pdb
+C:\Users\user\Desktop\wpf\CybersportTrainer\CybersportTrainer\WriteHistory\obj\Debug\WriteHistory.csprojAssemblyReference.cache

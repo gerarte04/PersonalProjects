@@ -1,0 +1,7 @@
+TrainingTime:dumbbell_icon.png
+Kills:kill_icon.png
+Headkills:headshot_icon.png
+ARKills:ar_icon.png
+SRKills:sr_icon.png
+MVP:star_icon.png
+None:cross.png

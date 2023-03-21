@@ -1,0 +1,7 @@
+TotalKills 1
+TotalHeadkills 1
+TotalHits 1
+TotalShots 1
+TotalDeaths 0
+TotalMatches 0
+TotalWins 0

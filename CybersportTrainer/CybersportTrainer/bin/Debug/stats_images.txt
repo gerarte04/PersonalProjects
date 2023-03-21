@@ -1,0 +1,4 @@
+AllStats:cross.png
+AWPStats:awp.png
+ARStats:ak47.png
+PistolStats:usp.png

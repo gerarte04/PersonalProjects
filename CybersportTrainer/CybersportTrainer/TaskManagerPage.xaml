@@ -1,0 +1,68 @@
+﻿<Page x:Class="CybersportTrainer.TaskManagerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CybersportTrainer"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TaskManagerPage">
+
+    <Page.Resources>
+        <ControlTemplate x:Key="RadioButtonTemplate" 
+                         TargetType="RadioButton">
+            <Border
+                x:Name="Border"
+                Background="Transparent"
+                BorderBrush="White"
+                BorderThickness="2"
+                Width="20"
+                Height="20"
+                CornerRadius="10">
+                <ContentPresenter
+                    HorizontalAlignment="Center"
+                    Margin="{TemplateBinding Padding}"
+                    VerticalAlignment="Center">
+                    <ContentPresenter.Content>
+                        <Border Width="7" Height="7"
+                                CornerRadius="3.5"
+                                Background="White"/>
+                    </ContentPresenter.Content>
+                </ContentPresenter>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="ToggleButton.IsMouseOver" Value="true">
+                    <Setter TargetName="Border" Property="Background" Value="#5c5c5c"/>
+                </Trigger>
+                <Trigger Property="IsChecked" Value="true">
+                    <Setter TargetName="Border" Property="Background" Value="#586e5c"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        
+        <RadioButton x:Key="standard_rb"
+                     Template="{DynamicResource RadioButtonTemplate}" 
+                     x:Shared="False"/>
+        <TextBlock x:Key="paragraph_tbl" Margin="0,25,0,0" 
+                   FontFamily="Hermes" FontSize="24" Foreground="White"
+                   TextWrapping="Wrap"
+                   x:Shared="False"/>
+        <TextBlock x:Key="radiobutton_tbl" Margin="0,25,0,0" 
+                   FontFamily="Hermes" FontSize="24" Foreground="White"
+                   TextWrapping="Wrap"
+                   x:Shared="False"/>
+    </Page.Resources>
+    
+    <Grid>
+        <ScrollViewer x:Name="scroll"
+                      HorizontalAlignment="Left"
+                      VerticalAlignment="Top"
+                      VerticalScrollBarVisibility="Hidden">
+            <StackPanel x:Name="container" Orientation="Vertical"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top">
+                        
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
