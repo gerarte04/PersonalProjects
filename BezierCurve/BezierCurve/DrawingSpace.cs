@@ -27,7 +27,7 @@ namespace BezierCurve
             MaxPointsCount = (int)(1 / Constants.RelativePosOffset) + 1;
             actionPoint = null;
 
-            window = new RenderWindow(new VideoMode((uint)Constants.WindowResolution.X, (uint)Constants.WindowResolution.Y), "ПУТИН УМЕР В 2008 ГОДУ И СЕЙЧАС ПРАВИТ ЕГО КЛОН");
+            window = new RenderWindow(new VideoMode((uint)Constants.WindowResolution.X, (uint)Constants.WindowResolution.Y), "Bezier Curve");
             (window as Window).SetFramerateLimit(60);
 
             window.Closed += OnClose;
